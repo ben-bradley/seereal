@@ -1,14 +1,3 @@
-# Seereal
-
-I like `async`, but I don't like putting dependencies in my code so I figured out how to use just the parts I wanted.
-
-There are a lot of other projects that do the exact same thing and a whole lot more, but this one is mine.
-
-And I think it's pretty.
-
-### Example
-
-```
 var serial = require('./');
 
 function a(next) {
@@ -44,11 +33,3 @@ serial([a, e, b], function (err, results) {
   console.log(results); // => [ 'A' ]
   console.log(err.message); // => 'fake error'
 });
-
-```
-
-### Other Projects
-- `async` https://www.npmjs.org/package/async
-- `run-series` https://github.com/feross/run-series
-- `series` https://www.npmjs.org/package/series
-- `serial` https://www.npmjs.org/package/serial
