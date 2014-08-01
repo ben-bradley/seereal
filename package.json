@@ -1,0 +1,23 @@
+{
+  "name": "seereal",
+  "version": "0.0.1",
+  "description": "A simple bit of code to enable serialization of JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ben-bradley/seereal"
+  },
+  "keywords": [
+    "serial",
+    "async"
+  ],
+  "author": "Ben Bradley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ben-bradley/seereal/issues"
+  },
+  "homepage": "https://github.com/ben-bradley/seereal"
+}
