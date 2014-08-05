@@ -19,5 +19,16 @@
   "bugs": {
     "url": "https://github.com/ben-bradley/seereal/issues"
   },
-  "homepage": "https://github.com/ben-bradley/seereal"
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "homepage": "https://github.com/ben-bradley/seereal",
+  "devDependencies": {
+    "mocha": "^1.21.3",
+    "should": "^4.0.4"
+  }
 }

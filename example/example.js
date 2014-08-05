@@ -1,4 +1,4 @@
-var serial = require('./');
+var serial = require('../');
 
 function a(next) {
   setTimeout(function () {
